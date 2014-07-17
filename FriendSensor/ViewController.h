@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Parse/Parse.h>
 
 @interface ViewController : UIViewController
+<UITextFieldDelegate>
+{
+    IBOutlet UITextField *field;
+    IBOutlet UITextField *field1;
+    IBOutlet UITextField *field2;
+}
+
+- (IBAction)signup:(id)sender;
 
 @end

@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB38A38E1977122800DC6E43 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB38A38D1977122800DC6E43 /* CFNetwork.framework */; };
+		EB38A3901977123300DC6E43 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB38A38F1977123300DC6E43 /* SystemConfiguration.framework */; };
+		EB38A3921977123A00DC6E43 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB38A3911977123A00DC6E43 /* MobileCoreServices.framework */; };
+		EB38A3941977124000DC6E43 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB38A3931977124000DC6E43 /* AudioToolbox.framework */; };
+		EB38A3961977124500DC6E43 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB38A3951977124500DC6E43 /* Security.framework */; };
+		EB38A3981977124C00DC6E43 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EB38A3971977124C00DC6E43 /* libz.1.1.3.dylib */; };
+		EB38A39A1977125200DC6E43 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB38A3991977125200DC6E43 /* StoreKit.framework */; };
+		EB38A39C1977125700DC6E43 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB38A39B1977125600DC6E43 /* QuartzCore.framework */; };
+		EB38A39E1977125F00DC6E43 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB38A39D1977125F00DC6E43 /* CoreLocation.framework */; };
+		EB38A3A0197712B400DC6E43 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB38A39F197712B400DC6E43 /* Parse.framework */; };
+		EB38A3A3197728B900DC6E43 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB38A3A2197728B900DC6E43 /* MapViewController.m */; };
+		EB38A3A5197729A300DC6E43 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB38A3A4197729A300DC6E43 /* MapKit.framework */; };
 		EBED77661976937900B8AD73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBED77651976937900B8AD73 /* Foundation.framework */; };
 		EBED77681976937900B8AD73 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBED77671976937900B8AD73 /* CoreGraphics.framework */; };
 		EBED776A1976937900B8AD73 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBED77691976937900B8AD73 /* UIKit.framework */; };
@@ -34,6 +46,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB38A38D1977122800DC6E43 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		EB38A38F1977123300DC6E43 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EB38A3911977123A00DC6E43 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		EB38A3931977124000DC6E43 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		EB38A3951977124500DC6E43 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		EB38A3971977124C00DC6E43 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		EB38A3991977125200DC6E43 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		EB38A39B1977125600DC6E43 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EB38A39D1977125F00DC6E43 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EB38A39F197712B400DC6E43 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = ../../Downloads/Parse.framework; sourceTree = "<group>"; };
+		EB38A3A1197728B900DC6E43 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		EB38A3A2197728B900DC6E43 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		EB38A3A4197729A300DC6E43 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		EBED77621976937900B8AD73 /* FriendSensor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FriendSensor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBED77651976937900B8AD73 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EBED77671976937900B8AD73 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,8 +85,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB38A3A5197729A300DC6E43 /* MapKit.framework in Frameworks */,
+				EB38A39E1977125F00DC6E43 /* CoreLocation.framework in Frameworks */,
+				EB38A39C1977125700DC6E43 /* QuartzCore.framework in Frameworks */,
+				EB38A39A1977125200DC6E43 /* StoreKit.framework in Frameworks */,
+				EB38A3981977124C00DC6E43 /* libz.1.1.3.dylib in Frameworks */,
+				EB38A3961977124500DC6E43 /* Security.framework in Frameworks */,
+				EB38A3941977124000DC6E43 /* AudioToolbox.framework in Frameworks */,
+				EB38A3921977123A00DC6E43 /* MobileCoreServices.framework in Frameworks */,
+				EB38A3901977123300DC6E43 /* SystemConfiguration.framework in Frameworks */,
+				EB38A38E1977122800DC6E43 /* CFNetwork.framework in Frameworks */,
 				EBED77681976937900B8AD73 /* CoreGraphics.framework in Frameworks */,
 				EBED776A1976937900B8AD73 /* UIKit.framework in Frameworks */,
+				EB38A3A0197712B400DC6E43 /* Parse.framework in Frameworks */,
 				EBED77661976937900B8AD73 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,6 +137,17 @@
 		EBED77641976937900B8AD73 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EB38A3A4197729A300DC6E43 /* MapKit.framework */,
+				EB38A39F197712B400DC6E43 /* Parse.framework */,
+				EB38A39D1977125F00DC6E43 /* CoreLocation.framework */,
+				EB38A39B1977125600DC6E43 /* QuartzCore.framework */,
+				EB38A3991977125200DC6E43 /* StoreKit.framework */,
+				EB38A3971977124C00DC6E43 /* libz.1.1.3.dylib */,
+				EB38A3951977124500DC6E43 /* Security.framework */,
+				EB38A3931977124000DC6E43 /* AudioToolbox.framework */,
+				EB38A3911977123A00DC6E43 /* MobileCoreServices.framework */,
+				EB38A38F1977123300DC6E43 /* SystemConfiguration.framework */,
+				EB38A38D1977122800DC6E43 /* CFNetwork.framework */,
 				EBED77651976937900B8AD73 /* Foundation.framework */,
 				EBED77671976937900B8AD73 /* CoreGraphics.framework */,
 				EBED77691976937900B8AD73 /* UIKit.framework */,
@@ -117,6 +164,8 @@
 				EBED77771976937900B8AD73 /* Main.storyboard */,
 				EBED777A1976937900B8AD73 /* ViewController.h */,
 				EBED777B1976937900B8AD73 /* ViewController.m */,
+				EB38A3A1197728B900DC6E43 /* MapViewController.h */,
+				EB38A3A2197728B900DC6E43 /* MapViewController.m */,
 				EBED777D1976937900B8AD73 /* Images.xcassets */,
 				EBED776C1976937900B8AD73 /* Supporting Files */,
 			);
@@ -252,6 +301,7 @@
 				EBED777C1976937900B8AD73 /* ViewController.m in Sources */,
 				EBED77761976937900B8AD73 /* AppDelegate.m in Sources */,
 				EBED77721976937900B8AD73 /* main.m in Sources */,
+				EB38A3A3197728B900DC6E43 /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +426,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/owner/Downloads,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FriendSensor/FriendSensor-Prefix.pch";
 				INFOPLIST_FILE = "FriendSensor/FriendSensor-Info.plist";
@@ -389,6 +443,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/owner/Downloads,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FriendSensor/FriendSensor-Prefix.pch";
 				INFOPLIST_FILE = "FriendSensor/FriendSensor-Info.plist";
@@ -456,6 +514,7 @@
 				EBED77961976937900B8AD73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EBED77971976937900B8AD73 /* Build configuration list for PBXNativeTarget "FriendSensorTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +523,7 @@
 				EBED77991976937900B8AD73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
