@@ -17,5 +17,8 @@
     CLLocationDegrees latitube;
     CLLocationDegrees longitube;
     IBOutlet MKMapView *map;
+    PFObject *coordinateObject;
+    PFGeoPoint *currentLocation;
+    PFQuery *query;
 }
 @end

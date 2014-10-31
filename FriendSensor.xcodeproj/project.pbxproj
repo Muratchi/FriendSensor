@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB0A3DCE1988BB23000C74F9 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0A3DCD1988BB23000C74F9 /* Parse.framework */; };
 		EB38A38E1977122800DC6E43 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB38A38D1977122800DC6E43 /* CFNetwork.framework */; };
 		EB38A3901977123300DC6E43 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB38A38F1977123300DC6E43 /* SystemConfiguration.framework */; };
 		EB38A3921977123A00DC6E43 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB38A3911977123A00DC6E43 /* MobileCoreServices.framework */; };
@@ -16,7 +17,6 @@
 		EB38A39A1977125200DC6E43 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB38A3991977125200DC6E43 /* StoreKit.framework */; };
 		EB38A39C1977125700DC6E43 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB38A39B1977125600DC6E43 /* QuartzCore.framework */; };
 		EB38A39E1977125F00DC6E43 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB38A39D1977125F00DC6E43 /* CoreLocation.framework */; };
-		EB38A3A0197712B400DC6E43 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB38A39F197712B400DC6E43 /* Parse.framework */; };
 		EB38A3A3197728B900DC6E43 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB38A3A2197728B900DC6E43 /* MapViewController.m */; };
 		EB38A3A5197729A300DC6E43 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB38A3A4197729A300DC6E43 /* MapKit.framework */; };
 		EBED77661976937900B8AD73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBED77651976937900B8AD73 /* Foundation.framework */; };
@@ -46,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB0A3DCD1988BB23000C74F9 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = ../../Sites/Parse.framework; sourceTree = "<group>"; };
 		EB38A38D1977122800DC6E43 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		EB38A38F1977123300DC6E43 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		EB38A3911977123A00DC6E43 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
@@ -85,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB0A3DCE1988BB23000C74F9 /* Parse.framework in Frameworks */,
 				EB38A3A5197729A300DC6E43 /* MapKit.framework in Frameworks */,
 				EB38A39E1977125F00DC6E43 /* CoreLocation.framework in Frameworks */,
 				EB38A39C1977125700DC6E43 /* QuartzCore.framework in Frameworks */,
@@ -97,7 +99,6 @@
 				EB38A38E1977122800DC6E43 /* CFNetwork.framework in Frameworks */,
 				EBED77681976937900B8AD73 /* CoreGraphics.framework in Frameworks */,
 				EBED776A1976937900B8AD73 /* UIKit.framework in Frameworks */,
-				EB38A3A0197712B400DC6E43 /* Parse.framework in Frameworks */,
 				EBED77661976937900B8AD73 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +138,7 @@
 		EBED77641976937900B8AD73 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EB0A3DCD1988BB23000C74F9 /* Parse.framework */,
 				EB38A3A4197729A300DC6E43 /* MapKit.framework */,
 				EB38A39F197712B400DC6E43 /* Parse.framework */,
 				EB38A39D1977125F00DC6E43 /* CoreLocation.framework */,
@@ -429,6 +431,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/owner/Downloads,
+					/Users/owner/Documents,
+					/Users/owner/Sites,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FriendSensor/FriendSensor-Prefix.pch";
@@ -446,6 +450,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/owner/Downloads,
+					/Users/owner/Documents,
+					/Users/owner/Sites,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FriendSensor/FriendSensor-Prefix.pch";

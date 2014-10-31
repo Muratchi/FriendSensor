@@ -20,6 +20,7 @@
     [defaultACL setPublicReadAccess:YES];
     [PFACL setDefaultACL:defaultACL withAccessForCurrentUser:YES];
     return YES;
+    
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application
